@@ -2,9 +2,94 @@
 ---
 
 @import 'main
-{%- if jekyll.environment == 'production' -%}
+{%- if jekyll.environment == ' production
+  ' -%}
   .bundle
 {%- endif -%}
 ';
 
 /* append your custom style below */
+
+
+.hello-text {
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--site-title-color);
+}
+
+.resume-btn{
+  font-family: $font-family-base;
+  margin-top: 2rem;
+}
+
+.desc-text{
+  font-weight: 600;
+  color: var(--site-title-color);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.text-container {
+  // height: 100vh;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+}
+.text-container p {
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.text-container p span.typed-text {
+  font-weight: normal;
+  color: #0d92f4;
+}
+.text-container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.text-container p span.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
