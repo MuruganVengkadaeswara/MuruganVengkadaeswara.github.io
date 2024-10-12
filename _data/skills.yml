@@ -48,7 +48,12 @@
   version: "Ver : 21 , 17 ,8"
   experience: "4+ years"
 
+- skill: JupyterLab
+  image: "https://img.icons8.com/fluency/48/jupyter.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"
+
 - skill: IBM Cloud
-  image: "https://img.icons8.com/office/40/ibm-watson.png"
+  image: "https://img.icons8.com/offices/80/ibm-watson.png"
   version: "Ver : 21 , 17 ,8"
   experience: "4+ years"
