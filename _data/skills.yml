@@ -1,0 +1,54 @@
+- skill: Java
+  image: "https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"
+
+- skill: JavaScript
+  image: "https://img.icons8.com/color/48/javascript--v1.png"
+  version: "ECMA"
+  experience: "4+ years"
+
+- skill: Typescript
+  image: "https://img.icons8.com/color/48/typescript.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"
+
+- skill: PostgreSQL
+  image: "https://img.icons8.com/color/48/postgreesql.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"
+
+- skill: MySQL
+  image: "https://img.icons8.com/color/48/mysql-logo.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"
+
+- skill: IBM DB2
+  image: "https://img.icons8.com/external-creatype-outline-colourcreatype/48/external-db2-video-file-extension-line-creatype-outline-colourcreatype.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"
+
+- skill: Python
+  image: "https://img.icons8.com/color/48/python--v1.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"
+
+- skill: Spring
+  image: "https://img.icons8.com/officel/40/spring-logo.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"
+
+- skill: Angular
+  image: "https://img.icons8.com/fluency/48/angularjs.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"
+
+- skill: React
+  image: "https://img.icons8.com/office/100/react.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"
+
+- skill: IBM Cloud
+  image: "https://img.icons8.com/office/40/ibm-watson.png"
+  version: "Ver : 21 , 17 ,8"
+  experience: "4+ years"

@@ -1,0 +1,35 @@
+---
+layout: default
+refactor: true
+---
+{% comment %} <div class="skill-card-info"> {% endcomment %}
+{% comment %} <h2 class="skill-card-title">Java</h2> {% endcomment %}
+{% comment %}
+  <p class="skill-card-intro">
+    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+    texts.
+  </p>
+{% endcomment %}
+{% comment %} </div> {% endcomment %}
+{% comment %} <div>Languages</div> {% endcomment %}
+<div class="skill-container">
+  {% for entry in site.data.skills %}
+    <div class="skill-cards">
+      <div class="skill-card-item">
+        <div class="skill-card-image">
+          <img
+            width="48"
+            height="48"
+            src="{{entry.image}}"
+            alt="java-coffee-cup-logo--v1"
+          >
+          <div style="align-content: center;">&nbsp; {{ entry.skill }}</div>
+        </div>
+        <div style="padding: 10px;">
+          {% comment %} <div>{{ entry.version }}</div> {% endcomment %}
+          {% comment %} <div>Exp : {{ entry.experience }}</div> {% endcomment %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
