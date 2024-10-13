@@ -1,0 +1,35 @@
+---
+layout: page
+# The Archives of posts.
+---
+<div class="expr-container">
+  {% for entry in site.data.experience %}
+    <div class="{{entry.position}}">
+      <div class="marker"></div>
+      <div class="timeline-content">
+        <h3>{{ entry.company }}</h3>
+        <span>{{ entry.period }}</span><br>
+        <span>{{ entry.role }}</span>
+        <p>
+          {{ entry.description }}
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+<h1>Education</h1>
+<div class="expr-container">
+  {% for entry in site.data.education %}
+    <div class="{{entry.position}}">
+      <div class="marker"></div>
+      <div class="timeline-content">
+        <h3>{{ entry.course }}</h3>
+        <span>{{ entry.institute }}</span><br>
+        <span>{{ entry.role }}</span>
+        <p>
+          {{ entry.description }}
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
