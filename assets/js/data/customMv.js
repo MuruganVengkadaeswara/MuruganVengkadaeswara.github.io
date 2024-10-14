@@ -49,3 +49,24 @@ document.addEventListener('DOMContentLoaded', function () {
   // On DOM Load initiate the effect
   if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+function Download(url) {
+  document.getElementById('my_iframe').src = url;
+}
+
+function downloadPDF() {
+  const url = '/assets/files/resume.pdf'; // Replace with the actual path to your PDF file
+
+  // Create a temporary link element
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'resume.pdf'; // Replace with the desired filename
+
+  // Trigger a click event on the link to initiate the download
+  link.click();
+}
+
+const downloadButton = document.getElementById('download-button');
+
+// Add a click event listener to the button
+downloadButton.addEventListener('click', downloadPDF);
